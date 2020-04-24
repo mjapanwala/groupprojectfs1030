@@ -1,0 +1,89 @@
+/* Nav bar */
+.nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .nav li {
+   display: inline;
+   padding: 30px;
+  padding-top: 2rem;
+ }
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.maincontainer .nav  {
+  font-size: 2rem;
+ 
+}
+
+.nav li a {
+text-decoration:none;
+}
+.nav {
+  margin-top: 10px;
+}
+
+body {
+  background-color:rgb(151, 166, 168);
+ 
+}
+
+/* Container */
+.allcontainers {
+  text-align: center;
+  width: auto;
+  position: relative;
+  background-color: rgb(235, 235, 229);
+
+}
+
+.header {
+  font-size:  3rem;
+  letter-spacing: 2px;
+}
+
+.container2020, .container2019, .container2018 {
+  padding: 5rem;
+  background-color: rgb(187, 197, 196);
+}
+
+.heading {
+  font-size: 2rem;
+}
+label[for=reaction] {
+  background-color:rgb(236, 225, 228) ;
+  font-size: 1rem;
+}
+
+label[for=notes] {
+  background-color:rgb(172, 196, 176) ;
+}
+
+
+.notearea {
+  width: 800px;
+  height: 500px
+}
+#btn {
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  position: relative;
+ left: 950px;
+
+}
+
+#btn:hover {
+  background-color: rgb(118, 163, 165);
+}
+
+#btn:active {
+  background-color: lightgrey;
+}

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(151, 166, 168);
+  width: 100%;
+  position: relative;  
+}
+/* Navigation */
+.nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .nav li {
+   display: inline;
+   padding: 30px;
+  padding-top: 2rem;
+ }
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.maincontainer .nav  {
+  font-size: 2rem;
+  position: relative;
+  left: 100px;
+}
+
+.nav li a {
+text-decoration:none;
+}
+.nav {
+  margin-top: 10px;
+}
+
+
+
+/* Containers */
+
+.container {
+  background-color: rgb(91, 132, 138);
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.container1 {
+  background-color: rgb(192, 201, 207);
+  text-align:center;
+  padding: 18px;
+  font-size: 3rem;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.container2 {
+
+  height: 3rem;
+  position: relative;
+  width: 100%;
+ 
+ 
+}
+.container3 {
+
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+.container4 {
+
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+.container5 {
+ 
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+.container6 {
+
+  height: 10rem;
+  position: relative;
+  width: 100%;
+}
+
+
+ul {
+  text-align: left;
+  display:inline;
+  
+}
+ ul li {
+  list-style-type:none;
+  margin: 0px;
+  padding: 0;
+  text-align: left;
+  display:inline;
+ }
+  .revision li {
+    margin-right: 400px;
+    position: relative;
+    left: 50px;
+  }
+
+  .container2 .revision li {
+    position: relative;
+    left: 70px;
+  }
+
+ 
+
+  #revisions li {
+
+    font-size: 2rem;
+  }
+
+  .revision .lastedited {
+    position: relative;
+    left: 120px;
+  }
+
+  .revision .textadded {
+    position: relative;
+    left: 180px;
+  }
+
+  .revision .revisionvalue {
+    position: relative;
+    left: 70px;
+  }
+
+  input[type=checkbox] {
+    position: relative;
+    left: 70px;
+  }
+

@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(151, 166, 168);
+  width: 100%;
+  position: relative;  
+}
+/* Navigation */
+.nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .nav li {
+   display: inline;
+   padding: 30px;
+  padding-top: 2rem;
+ }
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.container .nav  {
+  font-size: 2rem;
+}
+
+.nav li a {
+text-decoration:none;
+}
+.nav {
+  margin-top: 10px;
+}
+
+
+/*  This information is Contact Details of the individual*/
+.contactinfo {
+  width: 700px;
+  border-radius: 10px;
+  border: 20px solid rgb(35, 76, 95);
+  position: relative;
+  left: 200px;
+}
+/* the chart */
+.key-value-pairs {
+  border-radius: 2px;
+  border:20px solid #527e97;
+}
+/* Property */
+.key {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: rgb(175, 190, 201);
+  border: rgb(32, 34, 49);
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+  font-weight: 800;
+  padding: 10px;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 18px;
+}
+ 
+
+/* Value */
+.value {
+  text-align:center;
+  list-style-type: none;
+  color: black;
+  background-color: rgb(238, 223, 223);
+  padding: 8px;
+ font-family: 'Chivo', sans-serif;
+ font-size:12px;
+}
+
+/* Image of avator*/
+.avatar {
+ position: relative;
+ bottom: 500px;
+ border-radius: 30px;
+ left: 1000px;
+ height: 500px
+}
+
+/* Styling of buttons at the top right*/
+.buttons {
+  border-radius: 2rem;
+  padding: 8px;
+  border: 4px solid rgb(170, 196, 22);
+  cursor: pointer;
+  position:relative;
+  left: 1505px;
+  top:50px;
+}
+
+
+/*Animation of button*/
+#refresh:hover {
+  color:rgb(79, 93, 170);
+  background-color:rgba(83, 180, 83, 0.699);
+  }
+  
+/* Personal notes*/
+textarea{
+   
+    width: 100%;
+    height:500px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    position: relative;
+  }
+
+#buttoninfo {
+  position: relative;
+  left: 1500px;
+}
+
+#enter {
+  position: relative;
+  left: 1500px;
+  border-radius: 3px;
+  width: 50px;
+  height: 24px;
+}
+
+#enter:hover {
+  background-color:rgb(29, 187, 68);
+}

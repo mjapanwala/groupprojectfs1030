@@ -1,0 +1,72 @@
+
+
+/* Nav bar */
+.nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .nav li {
+   display: inline;
+   padding: 30px;
+  padding-top: 2rem;
+ }
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.container1 .nav  {
+  font-size: 2rem;
+}
+
+.nav li a {
+text-decoration:none;
+}
+.nav {
+  margin-top: 10px;
+}
+
+body {
+  background-color:rgb(151, 166, 168)
+}
+
+
+/* Search Container */
+
+.container2 {
+  position: relative;
+  width: auto;
+  background-color: rgb(183, 190, 209);
+  height: 600px;
+  text-align: center;
+}
+
+p {
+  font-size: 3rem;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: rgb(118, 144, 155);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.searchdiv {
+  background-color: rgb(185, 200, 212);
+  padding: 10px;
+}
+
+input[type=text] {
+  background-color: rgb(184, 184, 197);
+  padding: 3px;
+}
+#btn:hover {
+background-color: steelblue;
+}
+
+#btn:active {
+  background-color: teal;
+}

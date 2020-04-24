@@ -1,0 +1,77 @@
+.nav ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ .nav li {
+   display: inline;
+   padding: 30px;
+  padding-top: 2rem;
+ }
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.container .nav  {
+  font-size: 2rem;
+}
+
+.nav li a {
+text-decoration:none;
+}
+.nav {
+  margin-top: 10px;
+}
+
+body {
+  background-color:rgb(151, 166, 168)
+}
+
+
+
+.images {
+
+  min-height: 70vh;
+  border-radius: 15px;
+  box-shadow: 5px 10px black;
+  position: relative;
+}
+
+.btn-radiology {
+  display: inline-block;
+  background: white;
+  color:black;
+  border: 3px solid green;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 20%;
+  box-shadow: 2px 5px black;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.btn:active {
+  background: grey;
+  box-shadow: 1px 1px grey;
+}
+
+.btn:hover {
+  background: green;
+  color: white;
+
+}
